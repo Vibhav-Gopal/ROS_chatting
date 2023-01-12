@@ -6,7 +6,6 @@
 #include  <bits/stdc++.h>
 #include <string>
 void chatterCallback(const std_msgs::String::ConstPtr& msg){
-	//ROS_INFO_STREAM("I heard: " << msg->data.c_str());
     std::cout<<"A says: "<<(msg->data.c_str());
     std::cout<<"\n";
     
